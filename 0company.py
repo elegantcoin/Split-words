@@ -1,4 +1,4 @@
-# 原文：https://blog.csdn.net/jiasudu1234/article/details/70065917 
+
 # _*_ coding: UTF-8 _*_
 import csv
 import jieba
