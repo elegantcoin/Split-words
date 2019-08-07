@@ -13,7 +13,8 @@
 
 inspired by [分词打标](http://www.gooseeker.com/res/softdetail_13.html) and [Jieba tutorial](https://blog.csdn.net/jiasudu1234/article/details/70065917), A splitting Chinese words and counting their frequence method is presentated. Since the original system is poorly performed, stopwords are used and English words are delt with correctly.
 
-results should be:
+Results should be:
+
 ![](https://github.com/elegantcoin/fenci/blob/master/1111.png)
 ![](https://github.com/elegantcoin/fenci/blob/master/2222.png)
 
