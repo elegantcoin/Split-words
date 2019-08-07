@@ -11,12 +11,23 @@
 </p>
 <br />
 
-inspired by [分词打标](http://www.gooseeker.com/res/softdetail_13.html), A splitting Chinese words and counting their frequence method is presentated. Since original system is poorly performed, stopwords are used and English words are delt with correctly.
+inspired by [分词打标](http://www.gooseeker.com/res/softdetail_13.html), A splitting Chinese words and counting their frequence method is presentated. Since the original system is poorly performed, stopwords are used and English words are delt with correctly.
 
 results should be:
 ![](http://www.gooseeker.com/res/resimg.html?type=0&name=tagtool2-6.png)
 ![](http://www.gooseeker.com/res/resimg.html?type=0&name=tagtool2-4.png)
 
+  # - input：
+  - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) words need to be split.
+  - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) stopwords used(both English and Chinese).
+  
+    # - main file：
+  - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) words need to be split.
+  - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) stopwords used(both English and Chinese).
+  
+    # - output：
+  - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) words need to be split.
+  - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) stopwords used(both English and Chinese).
 
   # - 思考：
   - cloudword?
