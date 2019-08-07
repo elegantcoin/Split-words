@@ -18,16 +18,17 @@ results should be:
 ![](http://www.gooseeker.com/res/resimg.html?type=0&name=tagtool2-4.png)
 
   # - input：
-  - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) words need to be split.
-  - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) stopwords used(both English and Chinese).
+  - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) —— Words need to be split.
+  - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) ——  Stopwords used(both English and Chinese).
   
     # - main file：
-  - [0company.py](https://github.com/elegantcoin/fenci/blob/master/0company.py) Main excution code.
+  - [0company.py](https://github.com/elegantcoin/fenci/blob/master/0company.py)  —— Main excution code.
   
     # - output：
-  - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv) words split.
-  - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv) keywors.
+  - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv)  —— Words split.
+  - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv)  —— Keywors.
 
+    # - sourcecode：
 ```python
         # _*_ coding: UTF-8 _*_
         import csv
