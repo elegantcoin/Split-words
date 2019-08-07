@@ -91,6 +91,7 @@ results should be:
   # - 思考：
   - cloudword?
   - 关键信息成组
-  - 舆情分析
   - keywors sort()在源代码中对dic排序？还是直接导出结果后再排序，谁的效率高？
   - 停词已经判断则不需要再次判断
+  - 舆情分析
+  - [Awesome!!!](https://github.com/crownpku/Awesome-Chinese-NLP)
