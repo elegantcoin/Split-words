@@ -86,8 +86,8 @@ Results should be:
         writer.writerows(Rs2)
         file.close() 
 ```
-
-
+ # - 中国大学：
+[中国所有大学分词](https://github.com/elegantcoin/fenci/blob/master/Universities.csv)
 
   # - 思考：
   - cloudword?
