@@ -18,18 +18,18 @@ Results should be:
 ![](https://github.com/elegantcoin/fenci/blob/master/1111.png)
 ![](https://github.com/elegantcoin/fenci/blob/master/2222.png)
 
-  ## - input：
+  ## - 1. input：
   - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) —— Words need to be split.
   - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) ——  Stopwords used(both English and Chinese).
   
-  ## - main file：
+  ## - 2. main file：
   - [0company.py](https://github.com/elegantcoin/fenci/blob/master/0company.py)  —— Main excution code.
   
   ## - output：
   - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv)  —— Words split.
   - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv)  —— Keywors.
 
-  # - sourcecode：
+  # - 3. sourcecode：
 ```python
         # _*_ coding: UTF-8 _*_
         import csv
