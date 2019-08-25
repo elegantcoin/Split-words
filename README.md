@@ -25,11 +25,11 @@ Results should be:
   ## - 2. main file：
   - [0company.py](https://github.com/elegantcoin/fenci/blob/master/0company.py)  —— Main excution code.
   
-  ## - output：
+  ## - 3. output：
   - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv)  —— Words split.
   - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv)  —— Keywors.
 
-  # - 3. sourcecode：
+  # - 4. sourcecode：
 ```python
         # _*_ coding: UTF-8 _*_
         import csv
