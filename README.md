@@ -97,6 +97,7 @@ Results should be:
   - 停词已经判断则不需要再次判断
   - 舆情分析
   - [Awesome!!!](https://github.com/crownpku/Awesome-Chinese-NLP)
+  - [中文知识图谱 openkg.cn](http://openkg.cn/home)
   - 快速将大学的简称也分出来（如北京大学→北大、清华大学→清华、上海交通大学→上交）
   - 高频词提取后进行词之间的连接，形成图谱。如下所示:
     
