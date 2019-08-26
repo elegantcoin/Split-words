@@ -27,7 +27,7 @@ Results should be:
   
   ## - :fire: 3. output：
   - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv)  —— Words split.
-  - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv)  —— Keywors.
+  - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv)  —— Keywords.
 
   # - :fire: 4. sourcecode：
 ```python
