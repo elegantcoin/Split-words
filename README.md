@@ -18,18 +18,18 @@ Results should be:
 ![](https://github.com/elegantcoin/fenci/blob/master/1111.png)
 ![](https://github.com/elegantcoin/fenci/blob/master/2222.png)
 
-  ## - 1. input：
+  ## - :fire: 1. input：
   - [All.csv](https://github.com/elegantcoin/fenci/blob/master/All.csv) —— Words need to be split.
   - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) ——  Stopwords used(both English and Chinese).
   
-  ## - 2. main file：
+  ## - :fire: 2. main file：
   - [0company.py](https://github.com/elegantcoin/fenci/blob/master/0company.py)  —— Main excution code.
   
-  ## - 3. output：
+  ## - :fire: 3. output：
   - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv)  —— Words split.
   - [keyword_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/keyword_190807_14_55.csv)  —— Keywors.
 
-  # - 4. sourcecode：
+  # - :fire: 4. sourcecode：
 ```python
         # _*_ coding: UTF-8 _*_
         import csv
@@ -86,8 +86,9 @@ Results should be:
         writer.writerows(Rs2)
         file.close() 
 ```
- # - 中国大学：
-[中国所有大学分词](https://github.com/elegantcoin/fenci/blob/master/Universities.csv)
+ # :fire: - 中国大学： [中国所有大学分词](https://github.com/elegantcoin/fenci/blob/master/Universities.csv)
+    
+![](https://github.com/elegantcoin/fenci/blob/master/Colleges_in_China.png)
 
   # - 思考：
   - cloudword?
@@ -97,3 +98,5 @@ Results should be:
   - 舆情分析
   - [Awesome!!!](https://github.com/crownpku/Awesome-Chinese-NLP)
   - 快速将大学的简称也分出来（如北京大学→北大、清华大学→清华、上海交通大学→上交）
+  - 高频词提取后进行词之间的连接，如下所示
+    ![](https://github.com/elegantcoin/fenci/blob/master/ifind.png)
