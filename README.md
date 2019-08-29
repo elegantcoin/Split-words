@@ -13,7 +13,7 @@
 
 inspired by [分词打标](http://www.gooseeker.com/res/softdetail_13.html) and [Jieba tutorial](https://blog.csdn.net/jiasudu1234/article/details/70065917), A splitting Chinese words and counting their frequence method is presentated. Since the original system is poorly performed, stopwords are used and English words are delt with correctly.
 
-- ps::joy::joy::joy:[Leetcode 192. Word Frequency](https://leetcode-cn.com/problems/word-frequency/solution/shelltong-ji-ci-pin-by-laotoutou/)  One line simple solution!
+- ps::joy::joy::joy:[Leetcode 192. Word Frequency](https://leetcode-cn.com/problems/word-frequency/solution/shelltong-ji-ci-pin-by-laotoutou/)  Only counting words, see this one line simple solution!
     ```shell
     cat words.txt | xargs -n 1|sort |uniq -c|sort -nr| awk '{print $2" "$1}'
     ```
@@ -97,6 +97,7 @@ Results should be:
 
   # - 思考：
   - cloudword?
+  - Shell 可以一行解决词频问题，但是原文的分词结果展示以及中文实现是困难的。
   - 关键信息成组
   - keywors sort()在源代码中对dic排序？还是直接导出结果后再排序，谁的效率高？
   - 停词已经判断则不需要再次判断
