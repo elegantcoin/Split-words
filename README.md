@@ -92,6 +92,10 @@ Results should be:
 
   # - 思考：
   - cloudword?
+  - :joy::joy::joy:[Leetcode 192](https://leetcode-cn.com/problems/word-frequency/) 貌似一行就解决了。
+    ```shell
+    cat words.txt | xargs -n 1|sort |uniq -c|sort -nr| awk '{print $2" "$1}'
+    ```
   - 关键信息成组
   - keywors sort()在源代码中对dic排序？还是直接导出结果后再排序，谁的效率高？
   - 停词已经判断则不需要再次判断
