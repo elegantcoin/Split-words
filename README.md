@@ -13,8 +13,7 @@
 
 inspired by [分词打标](http://www.gooseeker.com/res/softdetail_13.html) and [Jieba tutorial](https://blog.csdn.net/jiasudu1234/article/details/70065917), A splitting Chinese words and counting their frequence method is presentated. Since the original system is poorly performed, stopwords are used and English words are delt with correctly.
 
-ps:
-- :joy::joy::joy:[Leetcode 192](https://leetcode-cn.com/problems/word-frequency/) 貌似一行就解决了。
+- ps::joy::joy::joy:[Leetcode 192. Word Frequency](https://leetcode-cn.com/problems/word-frequency/)  One line simple solution!
     ```shell
     cat words.txt | xargs -n 1|sort |uniq -c|sort -nr| awk '{print $2" "$1}'
     ```
