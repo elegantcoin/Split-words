@@ -45,7 +45,7 @@ Results should be:
 
         #使用命令行参数形式，增加稳健性
         ap=argparse.ArgumentParser()
-        ap.add_argument("-f","--file-name",required=True,default="All.csv",help="input file name")
+        ap.add_argument("-f","--file-name",default="All.csv",help="input file name")
         args=vars(ap.parse_args())
         
         #读取停词表
@@ -81,9 +81,10 @@ Results should be:
         dy=doctime[3:5]
         yr=doctime[6:10]
         hr=doctime[11:13]
-        se=doctime[14:16]
+        mi=doctime[14:16]
+        se=doctime[17:19]
 
-        file=open('fenci_'+yr[-2:]+mon+dy+'_'+hr+'_'+se+'.csv','w')
+        file=open('fenci_'+yr[-2:]+mon+dy+'_'+hr+'_'+mi+se+'.csv','w')
         writer = csv.writer(file)
         writer.writerows(Rs1)
         file.close() 
@@ -92,7 +93,7 @@ Results should be:
             Rs2.append((v,dic[v]))
 
         #print(Rs2[:10])
-        file=open('keyword_'+yr[-2:]+mon+dy+'_'+hr+'_'+se+'.csv','w')
+        file=open('keyword_'+yr[-2:]+mon+dy+'_'+hr+'_'+mi+se+'.csv','w')
         writer = csv.writer(file)
         writer.writerows(Rs2)
         file.close() 
