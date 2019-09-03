@@ -41,11 +41,17 @@ Results should be:
         import jieba
         import time
         import pandas as pd
+        import argparse
 
+        #使用命令行参数形式，增加稳健性
+        ap=argparse.ArgumentParser()
+        ap.add_argument("-f","--file-name",required=True,default="All.csv",help="input file name")
+        args=vars(ap.parse_args())
+        
         #读取停词表
         stopwords = [line.strip() for line in  open('stopwords.txt',encoding='UTF-8').readlines()]
         #一行行读取csv
-        file_object2=open('All.csv').read().split('\n')  
+        file_object2=open(args["file_name"]).read().split('\n')  
 
         #建立分词存储列表
         Rs1=[]
