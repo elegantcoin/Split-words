@@ -28,7 +28,7 @@ Results should be:
   - [stopwords.txt](https://github.com/elegantcoin/fenci/blob/master/stopwords.txt) ——  Stopwords used(both English and Chinese).
   
   ## - :fire: 2. main file：
-  - [0company.py](https://github.com/elegantcoin/Split-words/blob/master/Split_words.py)  —— Main excution code.
+  - [Split_words.py](https://github.com/elegantcoin/Split-words/blob/master/Split_words.py)  —— Main excution code.
   
   ## - :fire: 3. output：
   - [fenci_190807_14_55.csv](https://github.com/elegantcoin/fenci/blob/master/fenci_190807_14_55.csv)  —— Words split.
