@@ -112,6 +112,7 @@ Results should be:
   - [Awesome!!!](https://github.com/crownpku/Awesome-Chinese-NLP)
   - [中文知识图谱 openkg.cn](http://openkg.cn/home)
   - 快速将大学的简称也分出来（如北京大学→北大、清华大学→清华、上海交通大学→上交）
+  - 利用[百度echarts](https://echarts.apache.org/examples/zh/index.html#chart-type-parallel) 和[这个思路@zhouwei713](https://github.com/zhouwei713/data_analysis/tree/master/honglou)渲染图谱
   - 高频词提取后进行词之间的连接，形成图谱。如下所示:
     
     ![](https://github.com/elegantcoin/fenci/blob/master/ifind.png)
