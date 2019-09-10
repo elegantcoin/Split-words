@@ -40,7 +40,6 @@ Results should be:
         import csv
         import jieba
         import time
-        import pandas as pd
         import argparse
 
         #使用命令行参数形式，增加稳健性
