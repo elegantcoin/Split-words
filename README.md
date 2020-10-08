@@ -115,3 +115,5 @@ Results should be:
   - 高频词提取后进行词之间的连接，形成图谱。如下所示:
     
     ![](https://github.com/elegantcoin/fenci/blob/master/ifind.png)
+  - 利用[`Ucinet6`](http://www.cabit.com.cn/products/dec/ucinet/) 和 [`NetDraw`](http://www.jeb.com.fr/en/netdraw.shtml) 可以绘制简单版本的，但是可视化效果不好，如下图所示:
+    ![](https://github.com/elegantcoin/fenci/blob/master/NetDraw.jpg)
